@@ -2011,33 +2011,37 @@ p.sermon-description {
   width:80px;
   height:70px;
   float:right;
-  margin-top:44px
+  margin-top:44px;
+  background: #163891;
+  top: -20px;
+  position: absolute;
+  right: 60px
  }
  #burger .top {
   display:block;
   width:80px;
   height:20px;
-  background-color:#fff
+  background-color:#eee
  }
  #burger .bottom {
   display:block;
   width:80px;
   height:20px;
-  background-color:#fff
+  background-color:#eee
  }
  #burger .middle-left {
   display:block;
   float:left;
   width:25px;
   height:30px;
-  background-color:#fff
+  background-color:#eee
  }
  #burger .middle-right {
   display:block;
   float:right;
   width:25px;
   height:30px;
-  background-color:#fff
+  background-color:#eee
  }
  #burger .middle {
   display:block;
@@ -2349,7 +2353,11 @@ p.sermon-description {
   margin-right:20px;
   float:none;
   width:66px;
-  height:60px
+  height:60px;
+  background: #163891;
+  top: -10px;
+  position: absolute;
+  right: 30px
  }
  #burger .top {
   height:16px;
