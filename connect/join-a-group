@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join a Group | GroupLife | Grace Mission International London</title>
+<meta name="Description" content="Grace Mission International is based in Colindale, Mill Hill, Hendon, Barnet, Borehamwood and the borough of Barnet, London." />
+<meta name="Keywords" content="trinity, northwest, north, west, church, london, colindale, mill hill, hendon, barnet, borehamwood, new frontiers" />
+<link href="http://localhost/g-mission/css/style-new.css" rel="stylesheet" type="text/css" />
+
+<style>
+.sidebar.archive a.subscribe-block {
+width:auto;
+padding:30px;
+display:block;
+background-color:#03a2ac;
+color:#fff;
+margin-top:50px;
+background-image: url(http://localhost/g-mission/images2016/podcast-icon-hover.png);
+background-repeat:no-repeat;
+background-position:top right;
+}
+.sidebar.archive a.subscribe-block:hover {
+background-color:#ffc600;
+color:#444;
+background-image: url(http://localhost/g-mission/images2016/podcast-icon.png);
+}
+.sidebar.archive a.subscribe-block h4 {
+margin-top:0;
+margin-bottom:0;
+border:none;
+font-weight:700;
+}
+.sidebar.archive a.subscribe-block h5 {
+margin-top:0;
+margin-bottom:0;
+}
+</style>
+<style>
+.groups-holder {background-color:#f5f5f5;}
+.groups-over {
+background-color:#03a2ac;
+display:block;
+float:left;
+width:20%;
+background-size:cover;
+background-position:center;
+}
+.groups-over a {
+display:block;
+padding:37% 20%;
+text-decoration:none;
+color:#fff;
+height:60px;
+background-color:rgba(56, 84, 87, 0.5);
+}
+.groups-over a:hover {
+background-color:rgba(255, 198, 0, 0.9);
+color:#333;
+}
+.groups-over a h3 {
+font-size:26px;
+font-weight:700;
+text-align:center;
+line-height:1.3em;
+}
+.groups-over a p {
+padding-top:10px;
+line-height:1.5em;
+font-size:15px;
+}
+.groups-holder .groups-content {
+display:none;
+position:absolute;
+right:0px;
+width:1000px;
+}
+.groups-holder .groups-content .group-image-head {
+height:350px;
+width:350px;
+background-size:cover;
+background-position:center;
+float:right;
+}
+.groups-holder .groups-content h2 {
+font-size:30px;
+font-weight:700;
+padding:100px 0 30px 0;
+border-bottom:1px solid #ccc;
+}
+.group-content-hold {
+width:490px;
+float:left;
+margin-left:80px;
+padding-bottom:50px;
+}
+.groups-holder .groups-content p {
+font-size:15px;
+margin:30px 0;
+line-height:1.5em;
+}
+.close-groups {
+position:absolute;
+right:0px;
+display:none;
+width:80px;
+height:80px;
+z-index:5;
+background-image:url(http://localhost/g-mission/images2017/groups/close-cross.png);
+background-size:cover;
+background-color:#fff;
+cursor:pointer;
+}
+.close-groups:hover {background-color:#ffc600;}
+.percent-bar {
+height:30px;
+width:100%;
+background-color:#ddd;
+border-radius:15px;
+overflow:hidden;
+}
+.percent-full {
+background-color:#bbb;
+height:30px;
+}
+.percent-full span {
+display:block;
+width:100%;
+font-size:13px;
+color:#fff;
+text-align:center;
+padding-top:9px;
+min-width:70px;
+}
+.groups-icon {
+width:12px;
+float:left;
+margin-right:10px;
+margin-top:4px;
+}
+.group-signup-link {
+display:block;
+padding:13px 20px;
+color:#fff;
+background-color:#11949c;
+border-radius:15px;
+max-width:200px;
+font-size:13px;
+text-transform:uppercase;
+letter-spacing:1px;
+font-weight:700;
+text-align:center;
+margin:30px 0;
+text-decoration:none;
+}
+.group-signup-link:hover {
+color:#333;
+background-color:#ffc600;
+}
+.google-map-div {
+float:right;
+width:350px;
+height:350px;
+}
+.google-map-div iframe {
+width:100%;
+height:100%;
+}
+.map-pin {
+width:14px;
+height:14px;
+background-color:#11949c;
+margin-bottom:-16px;
+margin-left:-16px;
+position:relative;
+top:166px;
+left:50%;
+z-index:2;
+border:2px solid #ccc;
+border-radius:50%;
+}
+
+/*======= T R A N S I T I O N =======*/
+
+.groups-over.open a {
+background-color:#11949c;
+color:#fff;
+}
+.links-block.open {
+width:auto;
+float:left;
+margin-right:1000px
+}
+.links-block.open .groups-over {width:25%;}
+.links-block.open .groups-over a {
+display:block;
+padding:38% 12%;
+height:40px;
+}
+.links-block.open .groups-over h3 {
+}
+.links-block.open .groups-over p {display:none;}
+.groups-holder.open .groups-content {display:block;}
+.groups-holder.open .close-groups {display:block;}
+.groups-holder.open .groups-over a h3 {font-size:20px;}
+
+@media (max-width: 1900px) {
+.links-block.open {
+margin-right:0px;
+width:50%;
+background:none;
+}
+.groups-holder .groups-content {
+position:static;
+width:50%;
+float:right;
+}
+.groups-holder .groups-content .group-image-head {
+height:0px;
+width:35%;
+padding-bottom:35%;
+}
+.google-map-div {
+float:right;
+width:35%;
+height:350px;
+}
+.group-content-hold {
+width:55%;
+padding:0 5%;
+padding-bottom:50px;
+float:left;
+margin-left:0;
+}
+.groups-holder.open {
+background-image:url(http://localhost/g-mission/images2017/groups/grey-background.gif);
+background-size:50%;
+background-repeat:repeat-y;
+}
+}
+@media (max-width: 1600px) {
+.links-block.open {
+margin-right:0px;
+width:65%;
+}
+.groups-holder .groups-content {
+position:static;
+width:35%;
+float:right;
+}
+.groups-holder .groups-content .group-image-head {
+height:0px;
+width:auto;
+padding-bottom:70%;
+float:none;
+}
+.google-map-div {
+float:none;
+width:auto;
+height:350px;
+}
+.group-content-hold {
+width:auto;
+padding:0 60px;
+padding-bottom:50px;
+float:none;
+margin-left:0;
+}
+.groups-holder.open {
+background-image:url(http://localhost/g-mission/images2017/groups/grey-background.gif);
+background-size:65%;
+background-repeat:repeat-y;
+}
+.groups-over {width:25%;}
+}
+@media (max-width: 1400px) {
+.groups-over a {
+padding:37% 15%;
+}
+.links-block.open {width:55%;}
+.groups-holder .groups-content {width:45%;}
+.groups-holder.open {background-size:55%;}
+.links-block.open .groups-over {width:33.3%;}
+}
+@media (max-width: 1100px) {
+.groups-over a {height:50px;}
+.groups-over a h3 {font-size:22px;}
+}
+@media (max-width: 1000px) {
+.links-block.open {background-color:#4f6980;}
+.links-block.open {
+width:auto;
+float:none;
+}
+.groups-holder .groups-content {
+width:auto;
+float:none;
+}
+.groups-holder.open {
+background:none;
+background-color:#ebebeb;
+}
+.links-block.open .groups-over {width:14.2%;}
+.links-block.open .groups-over a {
+display:block;
+padding:10% 25% 50% 10%;
+height:40px;
+}
+.links-block.open .groups-over a h3 {
+font-size:15px;
+text-align:left;
+}
+.groups-holder .groups-content .group-image-head {
+height:350px;
+width:50%;
+padding-bottom:0;
+float:left;
+}
+.google-map-div {
+float:right;
+width:50%;
+height:350px;
+}
+}
+@media (max-width: 850px) {
+.links-block.open .groups-over {width:20%;}
+.groups-over a {
+padding:10% 20% 80% 10%;
+height:0px;
+}
+.groups-over a h3 {
+font-size:20px;
+text-align:left;
+}
+}
+@media (max-width: 700px) {
+.links-block.open {display:none;}
+.group-content-hold {
+padding:0 40px 40px 40px;
+}
+.groups-holder .groups-content h2 {
+padding:80px 0 30px 0;
+}
+.groups-over a h3 {font-size:17px;}
+}
+@media (max-width: 600px) {
+.groups-over a h3 {font-size:15px;}
+.groups-holder .groups-content .group-image-head {
+height:0px;
+width:auto;
+padding-bottom:70%;
+float:none;
+}
+.google-map-div {
+float:none;
+width:auto;
+height:350px;
+}
+}
+@media (max-width: 520px) {
+.groups-over {width:33.3%;}
+}
+@media (max-width: 480px) {
+.group-content-hold {
+padding:0 20px 30px 20px;
+}
+.groups-holder .groups-content h2 {
+padding:60px 0 30px 0;
+}
+.close-groups {
+width:60px;
+height:60px;
+}
+.google-map-div {
+float:none;
+width:auto;
+height:280px;
+}
+}
+</style>
+<!-- Type Kit -->
+<script src="https://use.typekit.net/ijy4hdj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-52368657-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="nav-hold">
+	<a id="logo" href="http://localhost/g-mission/"><img src="http://localhost/g-mission/images2016/trinity-logo.png" alt="Grace Mission International Logo" /></a>
+	<div class="nav">
+	    <div id="burger">
+			<span class="top"></span><div class="spacer"></div>
+			<span class="middle-right"></span>
+			<span class="middle-left"></span>
+			<span class="middle"><span class="middle1"></span><span class="middle2"></span><span class="middle3"></span><span class="middle4"></span></span>
+			<div class="spacer"></div><span class="bottom"></span>
+		</div>
+		<ul id="nav-list">
+			<span id="nav-close"><span class="close1"></span><span class="close2"></span></span>
+			<span class="nav-spacer"></span>
+			<li id="home"><a href="http://localhost/g-mission/">Home</a></li>
+			<li><a href="http://localhost/g-mission/about">About</a></li>
+			<li><a href="http://localhost/g-mission/sundays">Sundays</a></li>
+			<li><a href="http://localhost/g-mission/connect">Connect</a></li>
+			<li><a href="http://localhost/g-mission/sermons">Sermons</a></li>
+			<li id="mytrinity"><a href="http://localhost/g-mission/mytrinity">MyTrinity</a></li>
+			<span class="nav-line"></span>
+		</ul>
+	</div>
+	<div class="spacer" id="spacer-line"></div>
+</div>
+
+<div class="title-block title-block2" style="background-image:url(http://localhost/g-mission/images2016/titles/connect.jpg);">
+	<div class="title-block-color">
+		<div class="title-heading">
+			<h1>GroupLife</h1>
+			<h2>Join a Group</h2>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="content">
+		<h2>Join a Group</h2>
+		<!--<p style="color:#e71d25 ;"><strong>Signup for autumn 2016 term groups has now closed, but if you'd still like to join a group please join the connect group. Signup for spring term 2017 will be 8 - 22 Jan 2017.</strong></p>-->
+		<p>GroupLife is key to building friendships and discipling each other to become more like Jesus. Groups usually meet midweek and have up to 12 people. Have a look through the list of Groups below and sign up online to a group that you like the look of! The leader of the group will then be in touch with you to let you know the start date of the group and any other info.</p>
+		<p>If you are new to Trinity we suggest you join the Connect Group first as it will give you an introduction to Grace Mission International and will give you an opportunity to meet other new people and leaders.</p>
+		<p>All groups run for just one term (see <a href="http://localhost/g-mission/connect/grouplife-faqs">FAQ's</a> for reason why) and start in January, April or September.</p>
+	</div>
+	<div class="sidebar sidebar-content links">
+	    <h3>GroupLife Pages</h3>
+		<a href="http://localhost/g-mission/connect/join-a-group">Join a Group</a>
+		<a href="http://localhost/g-mission/connect/start-a-group">Start a Group</a>
+		<a href="http://localhost/g-mission/connect/grouplife-faqs">FAQs</a>
+	</div>
+	<div class="spacer"></div>
+</div>
+<div class="spacer"></div>
+
+<div class="groups-holder" id="groups-holder">
+	<div class="links-block" id="show-groups"></div>
+	<a id="close-groups" class="close-groups"></a>
+	<div class="groups-content" id="groups-content"></div>
+	<div class="spacer"></div>
+</div>
+
+<div class="footer" id="contact-foot">
+	<div class="container">
+		<div class="footer-address">
+			<h3>Visit Us</h3>
+			<p>Grace Mission International meets every Sunday 10.30am</p>
+			<p><strong>The Centre</strong><br/>
+			Avion Crescent<br/>
+			Grahame Park Way<br/>
+			London NW9 5QY</p>
+			<div class="googlemap">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d964.3529305463612!2d-0.2404529577494383!3d51.601004889865614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x8ba81e4d0674e68c!2sTrinity+Church!5e0!3m2!1sen!2suk!4v1464089410065" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<a href="https://maps.google.com/maps?ll=51.601409,-0.238894&z=17&t=m&hl=en-US&gl=GB&mapclient=embed&cid=10063326683529012876" target="_blank">View Map</a>
+		</div>		
+		<div class="footer-form">
+			<h3>Get In Touch</h3>
+			<p>Phone<br/>
+			020 8205 9271</p>
+			<div id="wufoo-m8uqtek0nknqn2">
+				Get in touch with our <a href="https://trinitywufoo.wufoo.com/forms/m8uqtek0nknqn2">online form</a>.
+			</div>
+			<script type="text/javascript">var m8uqtek0nknqn2;(function(d, t) {
+			var s = d.createElement(t), options = {
+			'userName':'trinitywufoo',
+			'formHash':'m8uqtek0nknqn2',
+			'autoResize':true,
+			'height':'497',
+			'async':true,
+			'host':'wufoo.com',
+			'header':'show',
+			'ssl':false};
+			s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+			s.onload = s.onreadystatechange = function() {
+			var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+			try { m8uqtek0nknqn2 = new WufooForm();m8uqtek0nknqn2.initialize(options);m8uqtek0nknqn2.display(); } catch (e) 			{}};
+			var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+			})(document, 'script');</script>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#burger").click(function(){
+        $(".nav ul").css("height","auto");
+        $(".nav ul").css("padding","50px 0");
+    });
+    $("#nav-close").click(function(){
+        $(".nav ul").removeAttr("style");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#archive-link2022").click(function(){$("#archive2022").toggleClass("archive-open");});
+    $("#archive-link2021").click(function(){$("#archive2021").toggleClass("archive-open");});
+    $("#archive-link2020").click(function(){$("#archive2020").toggleClass("archive-open");});
+    $("#archive-link2019").click(function(){$("#archive2019").toggleClass("archive-open");});
+    $("#archive-link2018").click(function(){$("#archive2018").toggleClass("archive-open");});
+    $("#archive-link2017").click(function(){$("#archive2017").toggleClass("archive-open");});
+    $("#archive-link2016").click(function(){$("#archive2016").toggleClass("archive-open");});
+    $("#archive-link2015").click(function(){$("#archive2015").toggleClass("archive-open");});
+    $("#archive-link2014").click(function(){$("#archive2014").toggleClass("archive-open");});
+    $("#archive-link2013").click(function(){$("#archive2013").toggleClass("archive-open");});
+});
+</script>
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 15,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(51.6012, -0.2388), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(51.6012, -0.2388),
+                    map: map,
+                    title: 'Grace Mission International'
+                });
+            }
+        </script>
+		<script>
+            $(document).ready(function(){
+                $.ajax({
+                    url: 'https://trinity.churchapp.co.uk/embed/smallgroups/json',
+    				jsonp: "callback",
+                    dataType: 'jsonp',
+                    success: function(response){
+        				response.forEach(function(group) {
+							var syear = ""+group.date_start[0]+group.date_start[1]+group.date_start[2]+group.date_start[3];
+							var smonth = ""+group.date_start[5]+group.date_start[6]-1;
+							var sday = ""+group.date_start[8]+group.date_start[9];
+							var shour = ""+group.time[0]+group.time[1];
+							var smin = ""+group.time[3]+group.time[4];
+							var sdate = new Date(syear,smonth,sday,shour,smin,00,0);
+							
+							var eyear = ""+group.date_end[0]+group.date_end[1]+group.date_end[2]+group.date_end[3];
+							var emonth = ""+group.date_end[5]+group.date_end[6]-1;
+							var eday = ""+group.date_end[8]+group.date_end[9];
+							var ehour = ""+group.time[0]+group.time[1];
+							var emin = ""+group.time[3]+group.time[4];
+							var edate = new Date(eyear,emonth,eday,ehour,emin,00,0);
+							
+							var signupyear = ""+group.signup_date_start[0]+group.signup_date_start[1]+group.signup_date_start[2]+group.signup_date_start[3];
+							var signupmonth = ""+group.signup_date_start[5]+group.signup_date_start[6]-1;
+							var signupday = ""+group.signup_date_start[8]+group.signup_date_start[9];
+							var signupdate = new Date(signupyear,signupmonth,signupday,00,00,00,0);
+							
+							var signendyear = ""+group.signup_date_end[0]+group.signup_date_end[1]+group.signup_date_end[2]+group.signup_date_end[3];
+							var signendmonth = ""+group.signup_date_end[5]+group.signup_date_end[6]-1;
+							var signendday = ""+group.signup_date_end[8]+group.signup_date_end[9];
+							var signenddate = new Date(signendyear,signendmonth,signendday,00,00,00,0);
+							
+							var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+							var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+							var days2 = ["","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+							var jsonurl = ""+group.images.original_1000
+							var vurl = jsonurl.replace(/\\/g, "");
+							
+							var hours = sdate.getHours();
+  							var minutes = sdate.getMinutes();
+  							var ampm = hours >= 12 ? 'pm' : 'am';
+  							hours = hours % 12;
+  							hours = hours ? hours : 12; // the hour '0' should be '12'
+  							minutes = minutes < 10 ? '0'+minutes : minutes;
+							var strTime = (minutes == 00) ? ''+hours+ampm:''+hours+'.'+minutes+ampm;
+							
+							var currentDate = new Date();
+							
+							var heading = '<h3>'+group.name+'</h3></span>';
+							var groupDetails = '<p><span style="text-transform:capitalize;">'+group.frequency+'</span> '+days2[group.day]+'s '+strTime+'</p>';
+							var linkOpen = '<div class="groups-over" style="background-image:url('+vurl+');" id="'+group.identifier+'"><a>';
+							var weekday = (group.day != null) ? 'on '+days2[group.day]:'';
+							
+							var location = (group.location.address_name) ? '<br/><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/location-icon.gif" alt="location icon" />'+group.location.address_name:'';
+							var postcode = ''+group.location.address;
+							var mapPostcode = postcode.replace(" ", "+");
+							var gmap = (group.location.address_name) ? '<div class="google-map-div"><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCSd9y-Fxadk_Em78VBZxAb44itA4YedlY&q=London+'+mapPostcode+'&zoom=15" allowfullscreen></iframe></div>':'';
+							
+							var allDetails = '<p><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/calendar-icon.gif" alt="calendar icon" />Meets '+group.frequency+' '+weekday+'<br/><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/time-icon.gif" alt="time icon" />'+strTime+location+'<br/><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/runs-icon.gif" alt="runs icon" />Runs '+group.date_start[8]+group.date_start[9]+' '+months[sdate.getMonth()]+' - '+group.date_end[8]+group.date_end[9]+' '+months[edate.getMonth()]+'</p>';
+							
+							var signupPercent = ''+Math.round(group.no_members*100/group.signup_capacity);
+							
+							var signupTrue = '<p style="margin-bottom:15px;"><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/signup-icon.gif" alt="signup icon" />Sign up '+group.signup_date_start[8]+group.signup_date_start[9]+' '+months[signupdate.getMonth()]+' - '+group.signup_date_end[8]+group.signup_date_end[9]+' '+months[signenddate.getMonth()]+'</p><div class="percent-bar"><div class="percent-full" style="width:'+signupPercent+'%;"><span>'+signupPercent+'% full</span></div></div><p style="color:#888; margin:10px 0; font-size:13px; text-align:right; border-bottom:1px solid #ccc; padding-bottom:30px;">Current Members '+group.no_members+' / '+group.signup_capacity+'</p><a class="group-signup-link" href="https://trinity.churchapp.co.uk/groups/'+group.identifier+'" target="_blank">Sign Up</a>';
+							
+							var signupFalse = '<p style="border-top:1px solid #ccc; padding-top:30px; margin-bottom:20px; color:#d73f39;"><img class="groups-icon" src="http://localhost/g-mission/images2017/groups/signup-icon.gif" alt="signup icon" />Sign up now closed</p>';
+							
+                            var signupDetails = (signenddate.getTime() > currentDate.getTime()) ? ''+signupTrue:''+signupFalse;
+							
+							var mainContent = '<div class="group-content-hold"><h2>'+group.name+'</h2>'+allDetails+'<p>'+group.description+'</p>'+signupDetails+'<div class="spacer"></div></div><div class="group-image-head" style="background-image:url('+vurl+');"></div>'+gmap+'<div class="spacer"></div>';
+							
+        					$('#show-groups').append(''+linkOpen+heading+'</a><div class="spacer"></div></div>');
+							
+							$("#"+group.identifier).click(function(){
+        						$("*").removeClass("open");
+        						$("#"+group.identifier).addClass("open");
+        						$("#show-groups").addClass("open");
+        						$("#groups-holder").addClass("open");
+        						$('#groups-content').html(''+mainContent);
+    						});
+    						$("#close-groups").click(function(){$("*").removeClass("open");});
+        				});
+						$('#show-groups').append('<div class="spacer"></div>');
+                    }
+                });
+            })
+        </script>
+		<!--<script>
+$(document).ready(function(){
+    $("#close-groups").click(function(){$("*").removeClass("open");});
+});
+</script>-->
+
+
+</body>
+</html>

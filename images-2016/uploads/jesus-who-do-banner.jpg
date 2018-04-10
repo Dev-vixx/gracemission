@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.css" >
+        <link rel="stylesheet" href="assets/css/style.css">
+         <link rel="shortcut icon" href="assets/favicon.ico" />
+
+        <title> You have run out of data </title>
+    </head>
+    <body>
+        <section class="vertical-center">
+            <div class="container ">
+                <div class="row" >
+                    <div class="col-sm-offset-2 col-sm-8 " style="text-align:center">
+                        <div class="">
+                            <img src="assets/images/logo.jpg">
+                        </div>
+                        <h3> You've run out of balance </h3>
+                        <p class="widthp">Use Facebook in free mode even without balance on 9mobile. Free mode means you won't use data to log in and browse Facebook.
+                        </p>
+                        <a href="https://free.facebook.com/login/?operator=9mobile_ng&_rdr" class="btn btn-primary"> Start Using Free Facebook </a>
+                        <a href="9mobile.html" class="btn btn-secondary"> Top-Up with 9mobile </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

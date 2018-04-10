@@ -1,0 +1,2484 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+ margin:0;
+ padding:0;
+ border:0;
+ font-size:100%;
+ font:inherit;
+ vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+ display:block
+}
+body {
+ line-height:1
+}
+ol,ul {
+ list-style:none
+}
+blockquote,q {
+ quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after {
+ content:'';
+ content:none
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0
+}
+.background-cover {
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-size:cover;
+ background-position:center;
+ background-repeat:no-repeat
+}
+html,body {
+ height:100%
+}
+body {
+ font-family:"museo-sans",Arial,Helvetica,sans-serif;
+ color:#444
+}
+.container {
+ width:auto;
+ max-width:1280px;
+ margin:0 auto;
+ padding:0 40px
+}
+.h1,.content h1 {
+ color:inherit;
+ font-size:42px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:1px;
+ font-weight:700;
+ text-align:inherit;
+ margin:30px 0 30px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.h2,.collage-block h2,.content h2,#lead-form h3 {
+ color:inherit;
+ font-size:33px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:1px;
+ font-weight:700;
+ text-align:inherit;
+ margin:30px 0 30px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.h3,.collage-block h3,.content h3,.sidebar h3,.sermon-series-hold h3,.footer h3 {
+ color:inherit;
+ font-size:24px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:700;
+ text-align:inherit;
+ margin:30px 0 20px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.h4,.collage-block h4,.content h4,.sidebar h4,.recent-block h4,.sermon-series-hold h4 {
+ color:inherit;
+ font-size:19px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:500;
+ text-align:inherit;
+ margin:30px 0 10px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.h5,.content h5,.sidebar h5,.sermon-series-hold h5,.sidebar .event-block h5 {
+ color:inherit;
+ font-size:16px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:500;
+ text-align:inherit;
+ margin:30px 0 10px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.h6,.content h6,.sidebar h6 {
+ color:inherit;
+ font-size:18px;
+ line-height:1.3em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:700;
+ text-align:inherit;
+ margin:40px 0 10px 0;
+ padding:0;
+ font-family:"museo-sans"
+}
+.p,.collage-block p,.content p,.sidebar-content p,.recent-block h5,.recent-block p,.sermon p,.footer p {
+ color:inherit;
+ font-size:15px;
+ line-height:1.5em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:500;
+ text-align:left;
+ margin:20px 0 20px 0;
+ padding:0;
+ font-family:inherit
+}
+.p strong,.collage-block p strong,.content p strong,.sidebar-content p strong,.recent-block h5 strong,.recent-block p strong,.sermon p strong,.footer p strong,.p b,.collage-block p b,.content p b,.sidebar-content p b,.recent-block h5 b,.recent-block p b,.sermon p b,.footer p b {
+ font-weight:bold
+}
+.p em,.collage-block p em,.content p em,.sidebar-content p em,.recent-block h5 em,.recent-block p em,.sermon p em,.footer p em, .p i,.collage-block p i,.content p i,.sidebar-content p i,.recent-block h5 i,.recent-block p i,.sermon p i,.footer p i {
+ font-style:italic
+}
+.p a,.collage-block p a,.content p a,.sidebar-content p a,.recent-block h5 a,.recent-block p a,.sermon p a,.footer p a {
+ color:#03a2ac;
+ text-decoration:none
+}
+.p a:hover,.collage-block p a:hover,.content p a:hover,.sidebar-content p a:hover,.recent-block h5 a:hover,.recent-block p a:hover,.sermon p a:hover,.footer p a:hover {
+ text-decoration:underline
+}
+.ul,.content ul {
+ color:inherit;
+ font-size:15px;
+ line-height:1.5em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:500;
+ text-align:left;
+ margin:20px 0 20px 0;
+ padding:0;
+ font-family:inherit;
+ list-style-position:outside;
+ list-style-type:disc;
+ position:relative;
+ left:30px;
+ margin-right:30px
+}
+.ul li,.content ul li {
+ margin-bottom:10px
+}
+.ul li ul,.content ul li ul {
+ list-style-type:circle
+}
+.ul strong,.content ul strong,.ul b,.content ul b {
+ font-weight:bold
+}
+.ol,.content ol {
+ color:inherit;
+ font-size:15px;
+ line-height:1.5em;
+ text-transform:none;
+ letter-spacing:0px;
+ font-weight:500;
+ text-align:left;
+ margin:20px 0 20px 0;
+ padding:0;
+ font-family:inherit;
+ list-style-position:outside;
+ list-style-type:decimal;
+ position:relative;
+ left:30px;
+ margin-right:30px
+}
+.ol li,.content ol li {
+ margin-bottom:10px
+}
+.ol strong,.content ol strong,.ol b,.content ol b {
+ font-weight:bold
+}
+.block-link {
+ display:block;
+ padding:11px 25px 10px 25px;
+ float:none;
+ margin:0;
+ text-decoration:none;
+ font-size:14px;
+ margin:20px 0;
+ border:2px solid #03a2ac;
+ background-color:#03a2ac;
+ color:#fff;
+ font-family:"museo-sans";
+ text-transform:uppercase;
+ letter-spacing:1px;
+ font-weight:700;
+ -webkit-border-radius:20px;
+ -moz-border-radius:20px;
+ -ms-border-radius:20px;
+ border-radius:20px;
+ text-align:left;
+ float:left
+}
+.block-link:hover {
+ background-color:#ffc600;
+ color:#444;
+ border:2px solid #ffc600
+}
+.orange {
+ background-color:#ffc600;
+ color:#444
+}
+.spacer {
+ clear:both
+}
+.spacerl {
+ clear:left
+}
+.spacerr {
+ clear:right
+}
+.line {
+ height:1px;
+ background-color:#ebebeb;
+ margin:50px 0
+}
+#logo {
+ /*width:140px;*/
+ /*height:75px;*/
+ background-repeat:no-repeat;
+ display:block;
+ position:absolute;
+ top:20px;
+ left:60px;
+ z-index:6
+}
+#logo img {
+ display:block;
+ margin:0;
+ padding:0
+}
+.nav-hold {
+ position:absolute;
+ top:0px;
+ left:0px;
+ width:100%;
+ z-index:5;
+ background: #ffffff;
+}
+.nav {
+ margin-left:210px;
+ margin-right:65px;
+ border-bottom:1px solid #fff;
+ height:100px
+}
+.nav ul {
+ float:right;
+ display:block
+}
+.nav li {
+ display:inline-block;
+ height:68px;
+ padding:45px 8px 0 8px
+}
+.nav li a {
+ display:block;
+ color:#222;
+ text-decoration:none;
+ font-size:16px;
+ letter-spacing:1px;
+ font-weight:700;
+ text-transform:uppercase;
+ padding:10px 18px 9px 18px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ border-radius:15px
+}
+.nav li a:hover {
+ background-color:#ffc600;
+ color:#444
+}
+.nav #home {
+ display:none
+}
+.nav-color {
+ background-color:#249299;
+ width:100%;
+ height:150px
+}
+#mytrinity {
+ position:absolute;
+ top:0;
+ right:10px;
+ padding:0
+}
+#mytrinity a {
+ background-color:#ffc600;
+ color:#333;
+ padding:9px 17px 10px 17px;
+ border-radius:0 0 10px 10px;
+ text-transform:none;
+ font-size:13px
+}
+@media (max-width: 850px) {
+ #mytrinity {
+  position:static;
+  top:auto;
+  right:auto;
+  padding:0 30px
+ }
+ #mytrinity a {
+  background-color:inherit;
+  color:#fff;
+  padding:inherit;
+  border-radius:0px;
+  text-transform:uppercase;
+  font-size:16px;
+  padding:10px 15px 9px 15px
+ }
+ #mytrinity a:hover {
+  background-color:#ffc600;
+  color:#444
+ }
+}
+.title-block {
+ width:100%;
+ height:90%;
+ background-color:#444;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position:top center;
+ min-height:500px
+}
+.title-block.title-block2 {
+ height:65%
+}
+.title-block-color {
+ width:100%;
+ height:100%;
+ background-image:url(http://localhost/g-mission/images2016/title-color.png)
+}
+.title-heading {
+ width:100%;
+ position:relative;
+ top:44%;
+ left:0px;
+ z-index:2
+}
+.title-heading h1 {
+ display:block;
+ width:auto;
+ padding:0 50px;
+ text-align:center;
+ color:#fff;
+ font-size:90px;
+ font-weight:100
+}
+.title-heading h2 {
+ width:100%;
+ text-align:center;
+ color:#fff;
+ font-size:25px;
+ font-weight:700;
+ padding-top:28px;
+ letter-spacing:1px
+}
+.title-heading .block-link {
+ text-align:center;
+ width:240px;
+ margin:60px auto 0 auto;
+ padding-left:0;
+ padding-right:0;
+ z-index:3;
+ background-color:#fff;
+ color:#444;
+ border:3px solid #fff;
+ font-size:18px;
+ float:none
+}
+.title-heading .block-link:hover {
+ background-color:#ffc600;
+ color:#444;
+ border:3px solid #ffc600
+}
+.title-block.title-block-home {
+ min-height:700px
+}
+.title-heading.title-heading-home {
+ top:36%
+}
+.title-heading.title-heading-home h1 {
+ padding:0
+}
+.inner-heading h1 {
+ width:100%;
+ text-align:center;
+ color:#249299;
+ font-size:68px;
+ font-weight:100;
+ padding:80px 0 0 0
+}
+.collage-block {
+ float:left;
+ display:block;
+ background-size:cover;
+ background-position:center;
+ background-repeat:no-repeat;
+ text-decoration:none
+}
+.collage-block h2 {
+ text-align:center;
+ margin-bottom:10px;
+ margin-top:0px;
+ padding-top:19%;
+ font-size:38px
+}
+.collage-block h4 {
+ text-align:center;
+ margin-bottom:10px;
+ margin-top:0px
+}
+.collage-block h3 {
+ text-align:center;
+ padding-top:125px;
+ margin-bottom:10px;
+ margin-top:0px
+}
+.collage-block p {
+ text-align:center;
+ margin-top:0;
+ opacity:0.7
+}
+.collage-block .hover-link {
+ color:#444;
+ text-decoration:none;
+ display:block;
+ width:auto;
+ height:100%
+}
+.collage-block .hover-link:hover {
+ background-color:#03a2ac;
+ color:#fff
+}
+.collage-block .arrow-float {
+ float:right;
+ display:none
+}
+.collage-block .bottom-arrow {
+ margin-top:320px;
+ margin-left:-20px;
+ position:absolute;
+ float:right;
+ width:20px;
+ height:20px;
+ background-color:#000;
+ background-image:url(http://localhost/g-mission/images2016/small-arrow.png);
+ background-repeat:no-repeat
+}
+.collage-block .hover-link:hover>.arrow-float {
+ display:block
+}
+#more-events-block {
+ display:none
+}
+#more-events-block .collage-block-100 {
+ background-size:cover;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-color:#ebebeb;
+ color:#03a2ac;
+ background-image:url(http://localhost/g-mission/images2017/event-home-back.jpg)
+}
+#more-events-block .collage-block-100 h3 {
+ padding-top:18%
+}
+#more-events-block .collage-block-100 h3 img {
+ width:50px;
+ margin-bottom:10px
+}
+#more-events-block .collage-block-100 p {
+ font-size:20px
+}
+#more-events-block .collage-block-100 p span {
+ position:relative;
+ top:4px;
+ font-size:18px
+}
+#more-events-block .collage-block-100:hover {
+ background:none;
+ background-color:#03a2ac;
+ color:#fff
+}
+.collage-block-50 {
+ height:350px;
+ width:50%
+}
+.collage-block-100 {
+ height:500px;
+ width:100%
+}
+.collage-block-100b {
+ height:350px;
+ width:100%
+}
+.collage-bunch1 {
+ width:50%;
+ float:left
+}
+.collage-bunch2 {
+ width:25%;
+ float:left
+}
+.collage-bunch3 {
+ width:25%;
+ float:left
+}
+#sundays-block {
+ background-color:#ffd83b
+}
+#sundays-block .bottom-arrow {
+ background-color:#ffc600
+}
+#expect-block {
+ background-color:#555d96;
+ background-image:url(http://localhost/g-mission/images2016/home-title/preach-expect2.jpg)
+}
+#expect-block h3 {
+ padding-top:140px
+}
+#expect-block .bottom-arrow {
+ background-color:#bbb
+}
+#expect-block .hover-link {
+ color:#fff
+}
+#events-block h3 {
+ padding-top:90px;
+ padding-bottom:30px
+}
+#events-block p {
+ display:block;
+ margin-bottom:5px;
+ text-align:left;
+ opacity:1
+}
+#giving-block {
+ background-color:#facea3;
+ background-image:url(http://localhost/g-mission/images2016/home-title/giving-icecream2.jpg)
+}
+#giving-block h3 {
+ padding-top:140px
+}
+#giving-block .bottom-arrow {
+ background-color:#efb47a
+}
+#map-block {
+ background-color:#e3e3e3;
+ background-image:url(http://localhost/g-mission/images2016/home-title/map-grey.jpg)
+}
+#sermons-block h3 {
+ padding-top:90px;
+ padding-bottom:30px
+}
+#sermons-block p {
+ display:block;
+ margin:0;
+ text-align:left;
+ opacity:1
+}
+.collage-block p .sermon-link {
+ display:block;
+ color:#444;
+ background-color:#fff;
+ padding:20px 0;
+ max-width:270px;
+ margin:0 auto;
+ text-decoration:none;
+ width:66%;
+ border-top:1px solid #ebebeb;
+ background-image:url(http://localhost/g-mission/images2016/speaker-icon.png);
+ background-repeat:no-repeat;
+ background-position:108% center;
+ -webkit-transition:all 0.5s;
+ transition:all 0.5s
+}
+.collage-block p .sermon-link span {
+ font-size:14px
+}
+.collage-block p .sermon-link:hover {
+ background-color:#ffc600;
+ color:#444;
+ background-position:108% center;
+ padding-left:15px;
+ max-width:255px;
+ border-top:1px solid #ffc600
+}
+.collage-block p .events-link {
+ display:block;
+ background-color:#f4f4f4;
+ padding:15px 20px;
+ margin:0 auto;
+ text-decoration:none;
+ width:66%;
+ max-width:370px;
+ overflow:hidden;
+ height:25px;
+ color:#444
+}
+.collage-block p .events-link strong {
+ background-color:#03a2ac;
+ color:#fff;
+ padding:15px 0 100px 20px;
+ display:block;
+ margin:-15px 30px 0 -20px;
+ float:left;
+ width:73px
+}
+.collage-block p .events-link:hover {
+ background-color:#ffc600;
+ color:#444;
+ background-image:none
+}
+.collage-block p .events-link:hover strong {
+ color:#ffc600
+}
+.collage-block p a:hover {
+ text-decoration:none
+}
+p.events-link:hover {
+ text-decoration:none
+}
+#about-block {
+ background-color:#77bd93
+}
+#about-block .bottom-arrow {
+ background-color:#62ad80
+}
+#map {
+ width:100%;
+ height:100%
+}
+@media (max-width: 780px) {
+ #map {
+  display:none
+ }
+}
+.address-float {
+ position:absolute;
+ background-color:#ddd;
+ z-index:3;
+ padding:25px
+}
+.address-float p {
+ padding:0;
+ margin:0;
+ color:#333;
+ opacity:1;
+ text-align:left;
+ font-size:14px
+}
+.content {
+ float:left;
+ width:60%;
+ padding-top:70px;
+ padding-bottom:100px
+}
+.sidebar {
+ float:right;
+ width:25%;
+ padding-top:70px;
+ padding-bottom:120px
+}
+.sidebar h3.plus-margin {
+ margin-top:40px
+}
+.sidebar.archive h4 {
+ border-bottom:1px solid #ebebeb;
+ padding-bottom:10px;
+ margin-bottom:0
+}
+.sidebar.archive p {
+ display:block;
+ margin:0
+}
+.sidebar.archive a {
+ display:block;
+ border-bottom:1px solid #ebebeb;
+ padding:10px 0;
+ text-decoration:none;
+ color:#03a2ac;
+ -webkit-transition:padding 0.5s;
+ transition:padding 0.5s
+}
+.sidebar.archive a:hover {
+ background-color:#ffc600;
+ color:#444;
+ padding-left:10px
+}
+.sidebar h3.plus-margin {
+ margin-top:35px
+}
+.sidebar .google-maps {
+ position:relative;
+ padding-bottom:45%;
+ height:0;
+ overflow:hidden
+}
+.google-maps iframe {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100% !important;
+ height:100% !important
+}
+.recent-block {
+ display:block;
+ width:23.2%;
+ float:left;
+ margin-top:60px
+}
+.recent-block a {
+ display:block;
+ padding:36px 30px;
+ background-color:#ebebeb;
+ margin-right:2px;
+ color:#444;
+ text-decoration:none;
+ height:102px;
+ background-position:top right;
+ background-repeat:no-repeat
+}
+.recent-block h4 {
+ margin-top:0;
+ font-weight:700;
+ width:70%
+}
+.recent-block h5 {
+ margin:5px 0;
+ width:70%
+}
+.recent-block p {
+ opacity:0.6;
+ margin:0;
+ font-size:13px
+}
+.recent-block input[type=text] {
+ display:block;
+ width:72%;
+ padding:5px 2%;
+ margin:0;
+ float:left;
+ -webkit-appearance:none;
+ border:1px solid #ccc;
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ -ms-border-radius:8px;
+ border-radius:8px;
+ font-size:13px
+}
+.recent-block input[type=submit] {
+ display:block;
+ width:22%;
+ padding:0;
+ margin:0;
+ float:right;
+ font-size:13px;
+ color:#fff;
+ -webkit-appearance:none;
+ padding:6px 0;
+ border:none;
+ background-color:#03a2ac;
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ -ms-border-radius:8px;
+ border-radius:8px;
+ text-transform:capitalize;
+ cursor:pointer;
+ font-weight:500
+}
+.recent-block input[type=submit]:hover {
+ background-color:#ffc600;
+ color:#444
+}
+.recent-block span {
+ display:block
+}
+.recent-block span.icon {
+ float:right;
+ width:20%;
+ height:50px;
+ background-color:#ebebeb
+}
+#recent-search {
+ width:25%;
+ float:right
+}
+#recent-search h4 {
+ padding-top:15px
+}
+#recent-search p {
+ color:#888;
+ opacity:1;
+ margin:20px 0
+}
+#recent-series a {
+ background-color:#ffc600;
+ background-image:url(http://localhost/g-mission/images2016/series-icon.png)
+}
+#recent-sermon a {
+ background-color:#77bd93;
+ background-image:url(http://localhost/g-mission/images2016/sermon-icon.png)
+}
+#recent-subscribe a {
+ background-color:#ebebeb;
+ background-image:url(http://localhost/g-mission/images2016/podcast-icon.png)
+}
+.recent-block a:hover,#recent-series a:hover,#recent-sermon a:hover,#recent-subscribe a:hover {
+ background-color:#03a2ac;
+ color:#fff
+}
+#recent-series a:hover {
+ background-image:url(http://localhost/g-mission/images2016/series-icon-hover.png)
+}
+#recent-sermon a:hover {
+ background-image:url(http://localhost/g-mission/images2016/sermon-icon-hover.png)
+}
+#recent-subscribe a:hover {
+ background-image:url(http://localhost/g-mission/images2016/podcast-icon-hover.png)
+}
+.sermon-series-hold {
+ float:left;
+ width:71%;
+ padding-top:70px;
+ padding-bottom:120px
+}
+.sermon-block {
+ display:block;
+ width:33%;
+ max-width:296px;
+ background-color:#ffc600;
+ height:auto;
+ margin-right:1px;
+ margin-bottom:1px;
+ float:left;
+ color:#333;
+ font-size:20px;
+ text-align:center;
+ text-decoration:none;
+ font-weight:700;
+ line-height:1.3em;
+ background-image:url(http://localhost/g-mission/images2016/sermons-series/plus-arrow.png);
+ background-position:center;
+ background-repeat:no-repeat
+}
+.sermon-block img {
+ display:block;
+ width:100%;
+ -webkit-transition:opacity 0.5s;
+ transition:opacity 0.5s
+}
+.sermon-block span {
+ display:block;
+ height:30px;
+ padding:90px 30px 0 30px;
+ margin-bottom:-120px
+}
+.sermon-block:hover>img {
+ opacity:0.1
+}
+.sermon {
+ border-top:1px solid #ebebeb;
+ padding-bottom:20px;
+ color:#444;
+ display:block;
+ text-decoration:none;
+ background-repeat:no-repeat;
+ background-position:center right;
+ -webkit-transition:padding 0.5s;
+ transition:padding 0.5s
+}
+.sermon h5 {
+ margin-top:20px;
+ margin-bottom:5px
+}
+.sermon p {
+ margin:0;
+ color:#888
+}
+.sermon:hover {
+ background-color:#ffc600;
+ color:#444;
+ padding-left:20px;
+ border-top:1px solid #ffc600;
+ background-image:url(http://localhost/g-mission/images2016/speaker-icon.png)
+}
+.sermon:hover>p {
+ color:#444
+}
+.archive-link {
+ background-color:#03a2ac;
+ color:#fff;
+ padding:20px 0;
+ padding-right:10px;
+ display:block;
+ font-size:14px;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ text-align:center;
+ text-decoration:none;
+ font-weight:700;
+ margin-top:1px
+}
+.archive-link:hover {
+ background-color:#ffc600;
+ color:#444
+}
+p.speaker span {
+ font-weight:700
+}
+p.sermon-description {
+ max-width:500px
+}
+.sermon-series {
+ background-color:#ebebeb;
+ margin-top:10px;
+ padding:50px
+}
+.sermon-series img {
+ float:right;
+ width:35%;
+ margin-bottom:30px
+}
+.sermon-series #banner {
+ display:none
+}
+.sermon-series .sermon {
+ border-top:1px solid #ddd
+}
+.sermon-series h2 a {
+ color:#444;
+ text-decoration:none
+}
+.sermon-series h2 a:hover {
+ color:#03a2ac
+}
+.sermon-title {
+ float:left;
+ width:60%
+}
+.sermon-title h2 {
+ margin:20px 0
+}
+.speaker-title {
+ float:left;
+ width:50%
+}
+.speaker-image {
+ float:right;
+ width:40%;
+ max-width:296px;
+ margin-top:20px
+}
+.series-banner {
+ width:100%;
+ max-width:768px
+}
+.archive-hide {
+ overflow:hidden;
+ height:65px
+}
+.archive-hide h4 {
+ display:block;
+ cursor:pointer;
+ background-image:url(http://localhost/g-mission/images2016/down-arrow.gif);
+ background-position:center right;
+ background-repeat:no-repeat
+}
+.archive-hide h4:hover {
+ color:#03a2ac;
+ border-bottom:1px solid #03a2ac;
+ background-image:url(http://localhost/g-mission/images2016/down-arrow-hover.gif)
+}
+.archive-hide.archive-open {
+ overflow:auto;
+ height:auto
+}
+.archive-hide.archive-open h4 {
+ background-image:url(http://localhost/g-mission/images2016/up-arrow.gif)
+}
+.archive-hide.archive-open h4:hover {
+ background-image:url(http://localhost/g-mission/images2016/up-arrow-hover.gif)
+}
+#audioplayer {
+ float:left;
+ width:87%;
+ max-width:500px;
+ height:46px;
+ margin:10px 0 10px 0;
+ border:solid 2px #03a2ac
+}
+#pButton {
+ height:50px;
+ width:50px;
+ margin:-2px 20px -2px -2px;
+ border:none;
+ background-repeat:no-repeat;
+ background-position:center;
+ float:left;
+ outline:none;
+ background-color:#03a2ac;
+ cursor:pointer
+}
+.play {
+ background-image:url(http://localhost/g-mission/images2016/sermon-play.png)
+}
+.pause {
+ background-image:url(http://localhost/g-mission/images2016/sermon-pause.png)
+}
+#timeline {
+ width:80%;
+ height:20px;
+ margin-top:13px;
+ float:left;
+ border-radius:15px;
+ background:#e5e5e5
+}
+#playhead {
+ width:18px;
+ height:18px;
+ border-radius:50%;
+ margin-top:1px;
+ background:#03a2ac;
+ cursor:pointer
+}
+.download-link {
+ display:block;
+ width:50px;
+ height:50px;
+ background-color:#03a2ac;
+ float:left;
+ margin:10px 0 10px -2px;
+ background-image:url(http://localhost/g-mission/images2016/sermon-download.png);
+ background-position:center;
+ background-repeat:no-repeat
+}
+.heading-block {
+ height:50%;
+ width:100%;
+ background-size:cover;
+ background-position:top center;
+ min-height:400px
+}
+.heading-color {
+ width:100%;
+ background-image:url(http://localhost/g-mission/images2016/titles/heading-over-color.png);
+ height:100%
+}
+.heading-block h2 {
+ color:#fff;
+ text-align:center;
+ font-size:75px;
+ position:relative;
+ top:45%;
+ display:block;
+ width:100%
+}
+.sidebar .event-block {
+ display:block;
+ text-decoration:none;
+ color:#444;
+ border-top:1px solid #ebebeb;
+ padding-bottom:5px
+}
+.sidebar .event-block h5 {
+ margin:0;
+ float:left;
+ width:65%;
+ padding:18px 0
+}
+.sidebar .event-block p {
+ display:block;
+ font-size:16px;
+ background-color:#03a2ac;
+ color:#fff;
+ margin:0;
+ float:right;
+ width:30%;
+ max-width:80px;
+ text-align:center;
+ padding:16px 0
+}
+.sidebar .event-block:hover>p {
+ background-color:#ffc600;
+ color:#03a2ac
+}
+.sidebar .event-block:hover>h5 {
+ color:#03a2ac
+}
+.content .pull-block {
+ display:block;
+ float:right;
+ margin-left:50px;
+ margin-bottom:30px;
+ width:47%;
+ max-width:250px;
+ background-color:#f5f5f5;
+ border:7px solid #f5f5f5
+}
+.content .pull-block img {
+ display:block;
+ width:100%;
+ margin:0px
+}
+.content .pull-block p {
+ font-size:13px;
+ margin:14px 12px 12px 12px;
+ color:#888
+}
+.content .pull-block.quote {
+ background-image:url(http://localhost/g-mission/images2016/quote-mark.png);
+ background-repeat:no-repeat;
+ background-position:bottom right
+}
+.content a.pull-block {
+ text-decoration:none
+}
+.content a.pull-block p {
+ color:#03a2ac
+}
+.content a.pull-block:hover {
+ background-color:#ffc600;
+ border:7px solid #ffc600
+}
+.content a.pull-block:hover p {
+ color:#444
+}
+.content.full {
+ width:auto;
+ float:none;
+ max-width:800px;
+ margin-left:auto;
+ margin-right:auto
+}
+.content.full h2 {
+ text-align:center
+}
+.content.full h3 {
+ text-align:center
+}
+.content.full p {
+ text-align:center
+}
+@media (max-width: 1100px) {
+ .heading-block {
+  height:auto;
+  width:100%;
+  background-size:cover;
+  background-position:top center;
+  min-height:0px
+ }
+ .heading-block h2 {
+  position:static;
+  top:0
+ }
+ .heading-color {
+  height:auto;
+  padding:160px 0
+ }
+}
+@media (max-width: 600px) {
+ .heading-block h2 {
+  font-size:70px
+ }
+ .heading-color {
+  padding:140px 0
+ }
+}
+@media (max-width: 580px) {
+ .content .pull-block {
+  margin-left:20px;
+  margin-bottom:20px
+ }
+}
+@media (max-width: 550px) {
+ .heading-block h2 {
+  font-size:65px
+ }
+ .heading-color {
+  padding:130px 0
+ }
+}
+@media (max-width: 480px) {
+ .heading-block h2 {
+  font-size:55px
+ }
+ .heading-color {
+  padding:100px 0
+ }
+}
+.links-block {
+ background-color:#ccc;
+ width:100%
+}
+.page-links {
+ display:block;
+ float:left;
+ width:20%;
+ background-color:#03a2ac;
+ padding-top:8%;
+ padding-bottom:8%;
+ color:#fff;
+ -webkit-transition:padding 0.5s;
+ transition:padding 0.5s;
+ background-size:cover;
+ background-position:center;
+ text-decoration:none
+}
+.page-links:hover {
+ background-color:#ffc600;
+ color:#444;
+ padding-top:7%;
+ padding-bottom:9%
+}
+.page-links h3 {
+ font-size:28px;
+ text-align:center
+}
+.page-links p {
+ display:none;
+ height:20px;
+ margin-bottom:-20px;
+ position:relative;
+ top:40px;
+ width:100%;
+ text-align:center;
+ font-size:15px
+}
+.page-links:hover p {
+ display:block
+}
+.page-links#vision {
+ background-image:url(http://localhost/g-mission/images2016/about/vision.jpg);
+ background-position:top right
+}
+.page-links#vision:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#leaders {
+ background-image:url(http://localhost/g-mission/images2016/about/leaders.jpg);
+ background-position:top center
+}
+.page-links#leaders:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#believe {
+ background-image:url(http://localhost/g-mission/images2016/about/bible.jpg);
+ background-position:center
+}
+.page-links#believe:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#community {
+ background-image:url(http://localhost/g-mission/images2016/about/community.jpg);
+ background-position:center
+}
+.page-links#community:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#history {
+ background-image:url(http://localhost/g-mission/images2016/about/history.jpg);
+ background-position:center
+}
+.page-links#history:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#catalyst {
+ background-image:url(http://localhost/g-mission/images2016/about/catalyst.jpg);
+ background-position:center
+}
+.page-links#catalyst h3 {
+ opacity:0
+}
+.page-links#catalyst:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#catalyst:hover h3 {
+ opacity:1
+}
+.page-links#giving {
+ background-image:url(http://localhost/g-mission/images2016/about/giving.jpg);
+ background-position:center
+}
+.page-links#giving:hover {
+ background:none;
+ background-color:#ffc600
+}
+.page-links#connect {
+ background-image:url(http://localhost/g-mission/images2016/about/connect.jpg);
+ background-position:center
+}
+.page-links#connect:hover {
+ background:none;
+ background-color:#ffc600
+}
+@media (max-width: 1400px) {
+ .page-links {
+  width:25%;
+  padding-top:10%;
+  padding-bottom:10%
+ }
+ .page-links:hover {
+  padding-top:9%;
+  padding-bottom:11%
+ }
+}
+@media (max-width: 1050px) {
+ .page-links {
+  width:33.3%;
+  padding-top:12%;
+  padding-bottom:12%
+ }
+ .page-links:hover {
+  padding-top:11%;
+  padding-bottom:13%
+ }
+}
+@media (max-width: 750px) {
+ .page-links {
+  width:50%;
+  padding-top:16%;
+  padding-bottom:16%
+ }
+ .page-links:hover {
+  padding-top:15%;
+  padding-bottom:17%
+ }
+}
+@media (max-width: 550px) {
+ .page-links {
+  width:100%;
+  padding-top:25%;
+  padding-bottom:25%
+ }
+ .page-links:hover {
+  padding-top:23%;
+  padding-bottom:27%
+ }
+}
+@media (max-width: 480px) {
+ .page-links {
+  width:100%;
+  padding-top:30%;
+  padding-bottom:30%
+ }
+ .page-links:hover {
+  padding-top:30%;
+  padding-bottom:30%
+ }
+}
+.leadership-box {
+ padding:50px 0;
+ border-bottom:1px solid #ebebeb;
+ min-height:169px
+}
+.leadership-box h3 {
+ margin-top:0
+}
+.leadership-box h3 a {
+ text-decoration:none;
+ color:inherit
+}
+.leadership-box h3 a:hover {
+ color:#ffc600
+}
+.leadership-box p {
+ margin-bottom:0;
+ margin-right:250px
+}
+.leadership-box .leader-image {
+ float:right;
+ width:200px;
+ height:169px;
+ margin-bottom:-169px;
+ background-color:#ebebeb;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position:top center
+}
+@media (max-width: 1200px) {
+ .leadership-box {
+  min-height:190px
+ }
+ .leadership-box p {
+  margin-right:240px
+ }
+ .leadership-box .leader-image {
+  height:190px
+ }
+}
+@media (max-width: 920px) {
+ .leadership-box {
+  min-height:169px
+ }
+ .leadership-box p {
+  margin-right:250px
+ }
+ .leadership-box .leader-image {
+  height:169px
+ }
+}
+@media (max-width: 700px) {
+ .leadership-box {
+  min-height:190px
+ }
+ .leadership-box p {
+  margin-right:240px
+ }
+ .leadership-box .leader-image {
+  height:190px
+ }
+}
+@media (max-width: 600px) {
+ .leadership-box {
+  min-height:169px
+ }
+ .leadership-box p {
+  margin-right:0
+ }
+ .leadership-box .leader-image {
+  height:169px;
+  margin-left:40px;
+  margin-bottom:10px;
+  width:160px
+ }
+}
+@media (max-width: 480px) {
+ .leadership-box {
+  min-height:160px
+ }
+ .leadership-box p {
+  margin-right:0
+ }
+ .leadership-box .leader-image {
+  height:160px;
+  margin-left:20px;
+  margin-bottom:10px;
+  width:150px
+ }
+}
+#lead-link {
+ background-color:#ffc600;
+ color:#444;
+ border-color:#ffc600;
+ margin-left:20px
+}
+#lead-link:hover {
+ background-color:#ffc600;
+ color:#03a2ac;
+ border-color:#ffc600
+}
+#join-link:hover {
+ background-color:#03a2ac;
+ color:#ffc600;
+ border-color:#03a2ac
+}
+.join-grey {
+ background-color:#ebebeb;
+ padding-bottom:10px;
+ padding-top:60px;
+ background-image:url(http://localhost/g-mission/images2016/titles/group-life-image.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position:center
+}
+.join-grey #groups {
+ height:0px;
+ overflow:hidden
+}
+.join-grey .content.full a {
+ width:170px;
+ padding-left:0;
+ padding-right:0;
+ margin-left:auto;
+ margin-right:auto;
+ float:none;
+ text-align:center;
+ margin-top:80px;
+ cursor:pointer
+}
+.lead-white {
+ padding-bottom:10px;
+ padding-top:60px
+}
+.lead-white #lead-form {
+ height:0px;
+ overflow:hidden
+}
+.lead-white .content.full a {
+ width:170px;
+ padding-left:0;
+ padding-right:0;
+ margin-left:auto;
+ margin-right:auto;
+ float:none;
+ text-align:center;
+ margin-top:80px;
+ cursor:pointer
+}
+.sidebar.links a {
+ display:block;
+ border-bottom:1px solid #ebebeb;
+ padding:15px 0;
+ color:#444;
+ text-decoration:none
+}
+.sidebar.links a:hover {
+ background-color:#ffc600;
+ padding-left:20px;
+ transition:padding 0.3s
+}
+.join-grey #groups.show-groups {
+ height:auto;
+ overflow:visible
+}
+.lead-white #lead-form.show-groups {
+ height:auto;
+ overflow:visible
+}
+#lead-form h3 {
+ text-align:center
+}
+.hide-content h1 {
+ display:none
+}
+.hide-content h3 {
+ display:none
+}
+.hide-content h4 {
+ display:none
+}
+.hide-content h5 {
+ display:none
+}
+.hide-content h6 {
+ display:none
+}
+.hide-content p {
+ display:none
+}
+.hide-content ul {
+ display:none
+}
+.content .prev-content {
+ display:block;
+ float:left;
+ margin-right:10px;
+ padding:0 18px;
+ border:2px solid #03a2ac;
+ border-radius:15px;
+ margin-top:30px;
+ cursor:pointer
+}
+.content .prev-content div {
+ float:left;
+ line-height:1.5em;
+ font-size:14px;
+ padding:9px 0 8px 0;
+ color:#03a2ac;
+ text-transform:uppercase;
+ letter-spacing:1px
+}
+.content .next-content {
+ display:block;
+ float:left;
+ background-color:#03a2ac;
+ max-width:60%;
+ padding:0 20px;
+ border-radius:15px;
+ margin-top:30px;
+ cursor:pointer
+}
+.content .next-content h2 {
+ font-size:15px;
+ letter-spacing:0;
+ float:left;
+ margin:0;
+ padding:0;
+ margin-left:55px;
+ line-height:1.5em;
+ padding:10px 0;
+ color:#fff
+}
+.content .next-content div {
+ float:left;
+ margin-right:-100px;
+ width:100px;
+ line-height:1.5em;
+ font-size:14px;
+ padding:11px 0 10px 0;
+ color:#fff;
+ text-transform:uppercase;
+ letter-spacing:1px
+}
+.content-section {
+ width:100%;
+ transition:width 0.3s;
+ float:left;
+ overflow:hidden
+}
+.content-section.hide-section {
+ width:0px;
+ max-height:260px
+}
+.min-hold {
+ min-width:600px
+}
+.three-links a {
+ display:block;
+ float:left;
+ width:30%;
+ margin-right:5%;
+ background-color:#ebebeb;
+ text-align:center;
+ border-radius:20px;
+ padding:15px 0;
+ text-decoration:none;
+ font-weight:700;
+ color:#fff;
+ font-size:17px
+}
+.three-links a.yellow {
+ margin-right:0;
+ background-color:#ffc600;
+ color:#444
+}
+.three-links a.blue {
+ background-color:#03a2ac
+}
+.three-links a.green {
+ background-color:#77bd93
+}
+@media (max-width: 1100px) {
+ .min-hold {
+  min-width:500px
+ }
+}
+@media (max-width: 920px) {
+ .min-hold {
+  min-width:700px
+ }
+}
+@media (max-width: 800px) {
+ .min-hold {
+  min-width:600px
+ }
+ .three-links a {
+  width:32%;
+  margin-right:2%
+ }
+ .three-links a.yellow {
+  margin-right:0
+ }
+}
+@media (max-width: 700px) {
+ .min-hold {
+  min-width:500px
+ }
+}
+@media (max-width: 600px) {
+ .min-hold {
+  min-width:400px
+ }
+ .three-links a {
+  width:100%;
+  margin-right:0;
+  margin-bottom:10px
+ }
+}
+@media (max-width: 500px) {
+ .min-hold {
+  min-width:300px
+ }
+}
+.footer {
+ padding:100px 0;
+ width:100%;
+ background-color:#444;
+ color:#fff
+}
+.footer .footer-address {
+ float:left;
+ width:40%
+}
+.footer .footer-address a {
+ display:block;
+ text-decoration:none;
+ font-size:14px;
+ color:#333;
+ padding:10px 20px;
+ background-color:#ffc600;
+ border:none;
+ border-radius:7px;
+ font-weight:700;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ cursor:pointer;
+ float:left;
+ margin-top:25px
+}
+.footer .footer-address .googlemap {
+ position:relative;
+ height:250px;
+ width:100%;
+ overflow:hidden
+}
+.footer .footer-address .googlemap iframe {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100% !important;
+ height:100% !important
+}
+.footer .footer-form {
+ float:right;
+ width:40%
+}
+.footer .footer-form p {
+ margin-bottom:0
+}
+@media (max-width: 1100px) {
+ .footer .footer-address {
+  width:45%
+ }
+ .footer .footer-form {
+  width:45%
+ }
+}
+@media (max-width: 650px) {
+ .footer {
+  padding:60px 0
+ }
+ .footer .footer-address {
+  width:100%;
+  padding-bottom:50px
+ }
+ .footer .footer-form {
+  width:100%
+ }
+}
+@media (max-width: 480px) {
+ .footer {
+  padding:50px 0
+ }
+}
+.burger {
+ display:none
+}
+@media (max-width: 1500px) {
+ .collage-bunch1 {
+  width:67%;
+  float:left
+ }
+ .collage-bunch2 {
+  width:33%;
+  float:left
+ }
+ .collage-bunch3 {
+  width:100%;
+  float:left
+ }
+ #sermons-block {
+  width:67%;
+  float:right
+ }
+ #about-block {
+  width:33%;
+  height:500px
+ }
+ #events-block {
+  background-color:#444;
+  color:#fff
+ }
+}
+@media (max-width: 1200px) {
+ .content {
+  width:58%
+ }
+ .sidebar {
+  width:32%
+ }
+ .sermon-series-hold {
+  width:58%
+ }
+ .sermon-block {
+  width:49%;
+  max-width:none
+ }
+ .sermon-series img {
+  float:right;
+  width:100%
+ }
+ .sermon-series #banner {
+  display:block
+ }
+ .sermon-series #thumb {
+  display:none
+ }
+ .sermon-title {
+  width:100%
+ }
+ .recent-block {
+  width:30%
+ }
+ #recent-search {
+  width:32%
+ }
+ #recent-subscribe {
+  width:60%;
+  margin-top:2px
+ }
+}
+@media (max-width: 1100px) {
+ .collage-bunch1 {
+  width:100%;
+  float:left
+ }
+ .collage-bunch2 {
+  width:50%;
+  float:left
+ }
+ .collage-bunch3 {
+  width:50%;
+  float:left
+ }
+ #sermons-block {
+  width:100%;
+  float:right
+ }
+ #about-block {
+  width:100%;
+  height:350px
+ }
+ #events-block {
+  background-color:#444;
+  color:#fff;
+  height:auto;
+  padding-bottom:80px
+ }
+ .collage-block p .events-link strong {
+  padding-bottom:15px;
+  margin-bottom:-20px;
+  position:absolute;
+  z-index:2
+ }
+ .collage-block p .events-link span {
+  display:block;
+  float:left;
+  padding-left:100px
+ }
+ .collage-block p .events-link {
+  height:auto;
+  background-image:url(http://localhost/g-mission/images2016/events-block-color.gif);
+  background-repeat:repeat-y;
+  background-position:top left
+ }
+ .speaker-title {
+  float:none;
+  width:100%
+ }
+ .speaker-image {
+  float:none;
+  width:100%
+ }
+ .collage-block h2 {
+  padding-top:22%
+ }
+ #more-events-block .collage-block-100 h3 {
+  padding-top:22%
+ }
+}
+@media (max-width: 920px) {
+ .content {
+  width:100%;
+  padding-top:50px;
+  padding-bottom:80px
+ }
+ .sidebar {
+  width:100%;
+  padding-top:0;
+  padding-bottom:80px
+ }
+ .sidebar h3.plus-margin {
+  margin-top:0
+ }
+ .sermon-series-hold {
+  width:100%;
+  padding-top:80px;
+  padding-bottom:80px
+ }
+ .sermon-block {
+  width:33%;
+  max-width:none
+ }
+ .inner-heading h1 {
+  font-size:63px;
+  padding:80px 0 20px 0
+ }
+ .recent-block {
+  width:50%;
+  margin-top:2px
+ }
+ #recent-search {
+  width:40%;
+  height:154px;
+  padding-top:20px;
+  padding-right:5%;
+  padding-left:5%;
+  margin-top:50px;
+  background-color:#444
+ }
+ #recent-search h4 {
+  color:#fff
+ }
+ #recent-subscribe {
+  width:50%
+ }
+ #recent-sermon {
+  float:right
+ }
+ #recent-series {
+  margin-top:50px
+ }
+ #sundays-logos {
+  display:none
+ }
+}
+@media (max-width: 850px) {
+ .nav ul {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  background-color:#333;
+  z-index:9;
+  float:none;
+  padding:50px 0;
+  overflow:hidden;
+  height:0;
+  padding:0;
+  -webkit-transition:all 0.5s;
+  transition:all 0.5s
+ }
+ .nav li {
+  float:none;
+  display:block;
+  height:auto;
+  padding:0 30px
+ }
+ .nav li a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-size:16px;
+  letter-spacing:1px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:10px 15px 9px 15px;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -ms-border-radius:0;
+  border-radius:0;
+  border-top:1px solid #555
+ }
+ .nav li a:hover {
+  background-color:#ffc600;
+  color:#444
+ }
+ .nav #home {
+  display:block
+ }
+ .nav-line {
+  height:1px;
+  display:block;
+  background-color:#555;
+  margin-left:30px;
+  margin-right:30px
+ }
+ #burger {
+  display:block;
+  width:80px;
+  height:70px;
+  float:right;
+  margin-top:44px
+ }
+ #burger .top {
+  display:block;
+  width:80px;
+  height:20px;
+  background-color:#fff
+ }
+ #burger .bottom {
+  display:block;
+  width:80px;
+  height:20px;
+  background-color:#fff
+ }
+ #burger .middle-left {
+  display:block;
+  float:left;
+  width:25px;
+  height:30px;
+  background-color:#fff
+ }
+ #burger .middle-right {
+  display:block;
+  float:right;
+  width:25px;
+  height:30px;
+  background-color:#fff
+ }
+ #burger .middle {
+  display:block;
+  float:left;
+  width:30px;
+  height:30px;
+  background:none
+ }
+ #burger .middle1 {
+  display:block;
+  width:100%;
+  height:8px;
+  background:none
+ }
+ #burger .middle2 {
+  display:block;
+  width:100%;
+  height:3px;
+  background-color:#fff
+ }
+ #burger .middle3 {
+  display:block;
+  width:100%;
+  height:8px;
+  background:none
+ }
+ #burger .middle4 {
+  display:block;
+  width:100%;
+  height:3px;
+  background-color:#fff
+ }
+ #burger:hover>.top {
+  background-color:#ffc600
+ }
+ #burger:hover>.bottom {
+  background-color:#ffc600
+ }
+ #burger:hover>.middle-left {
+  background-color:#ffc600
+ }
+ #burger:hover>.middle-right {
+  background-color:#ffc600
+ }
+ #burger:hover>.middle .middle2 {
+  background-color:#ffc600
+ }
+ #burger:hover>.middle .middle4 {
+  background-color:#ffc600
+ }
+ #nav-close {
+  width:35px;
+  height:35px;
+  float:right;
+  margin-top:-50px;
+  margin-bottom:-50px;
+  padding:15px;
+  background-color:#ffc600;
+  border-left:20px solid #333;
+  border-bottom:20px solid #333
+ }
+ #nav-close .close1 {
+  display:block;
+  width:35px;
+  height:8px;
+  background-color:#333;
+  -ms-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  transform:rotate(45deg);
+  margin-bottom:-8px;
+  margin-top:13px
+ }
+ #nav-close .close2 {
+  display:block;
+  width:35px;
+  height:8px;
+  background-color:#333;
+  -ms-transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg)
+ }
+ .nav-spacer {
+  display:block;
+  clear:both
+ }
+}
+@media (max-width: 780px) {
+ .collage-bunch1 {
+  width:100%;
+  float:left
+ }
+ .collage-bunch2 {
+  width:100%;
+  float:left
+ }
+ .collage-bunch3 {
+  width:100%;
+  float:left
+ }
+ #sermons-block {
+  width:100%;
+  float:right
+ }
+ #about-block {
+  width:100%;
+  height:350px
+ }
+ #events-block {
+  background-color:#444;
+  color:#fff
+ }
+ .collage-block-50 {
+  width:100%
+ }
+ .sermon-block {
+  width:49%;
+  max-width:none
+ }
+ .collage-block h2 {
+  padding-top:29%
+ }
+ #more-events-block .collage-block-100 h3 {
+  padding-top:28%
+ }
+}
+@media (max-width: 750px) {
+ .nav {
+  margin-right:40px;
+  margin-left:190px
+ }
+ #logo {
+  left:40px
+ }
+ .title-heading h1 {
+  font-size:80px
+ }
+ .title-heading.title-heading2 {
+  top:0
+ }
+ .title-block {
+  height:auto;
+  min-height:0px
+ }
+ .title-block.title-block-home {
+  min-height:0px
+ }
+ .title-block.title-block2 {
+  height:auto
+ }
+ .title-block-color {
+  height:auto;
+  padding-top:260px;
+  padding-bottom:170px
+ }
+ .recent-block {
+  width:auto;
+  margin-top:2px;
+  float:none
+ }
+ .recent-block a {
+  height:auto
+ }
+ #recent-search {
+  width:auto;
+  height:140px;
+  padding-top:40px;
+  padding-right:30px;
+  padding-left:30px;
+  margin-top:0;
+  background-color:#fff;
+  float:none
+ }
+ #recent-search h4 {
+  color:#444
+ }
+ #recent-subscribe {
+  width:100%
+ }
+ #recent-sermon {
+  float:none
+ }
+ #recent-series {
+  margin-top:0
+ }
+}
+@media (max-width: 640px) {
+ .title-heading h1 {
+  font-size:75px
+ }
+ .inner-heading h1 {
+  font-size:55px;
+  padding:80px 30px 20px 30px;
+  width:auto
+ }
+ .title-block-color {
+  height:auto;
+  padding-top:240px;
+  padding-bottom:150px
+ }
+}
+@media (max-width: 520px) {
+ .title-heading h1 {
+  font-size:66px
+ }
+ .title-heading h2 {
+  font-size:23px;
+  letter-spacing:0px
+ }
+ .title-heading .block-link {
+  margin:40px auto 0 auto
+ }
+ .collage-block-50 {
+  height:280px
+ }
+ .collage-block-100 {
+  height:500px
+ }
+ .collage-block-100b {
+  height:280px
+ }
+ #about-block {
+  height:280px
+ }
+ .collage-block h3 {
+  padding-top:95px
+ }
+ #expect-block h3 {
+  padding-top:105px
+ }
+ #giving-block h3 {
+  padding-top:105px
+ }
+ #timeline {
+  width:75%
+ }
+ .sermon-series {
+  padding:50px 40px;
+  width:100%;
+  margin-left:-40px
+ }
+}
+@media (max-width: 480px) {
+ .collage-block h2 {
+  padding-top:37%
+ }
+ #more-events-block .collage-block-100 h3 {
+  padding-top:35%
+ }
+ .content {
+  padding-top:20px;
+  padding-bottom:40px
+ }
+ .sidebar {
+  padding-bottom:40px
+ }
+ .sermon-series-hold {
+  padding-top:50px;
+  padding-bottom:40px
+ }
+ .container {
+  padding:0 20px
+ }
+ .sermon-series {
+  padding:40px 20px;
+  width:100%;
+  margin-left:-20px
+ }
+ .title-heading h1 {
+  font-size:60px
+ }
+ .title-block-color {
+  height:auto;
+  padding-top:180px;
+  padding-bottom:95px
+ }
+ .nav-hold {
+  height:auto
+ }
+ .nav-hold #spacer-line {
+  border-bottom:1px solid #fff;
+  margin-left:20px;
+  margin-right:20px;
+  height:17px
+ }
+ .nav {
+  margin-right:0;
+  margin-left:0;
+  padding:0;
+  height:auto;
+  width:auto;
+  border:none;
+  float:right
+ }
+ #logo {
+  margin-top:25px;
+  margin-left:20px;
+  top:0;
+  left:0;
+  width:31%;
+  position:static;
+  height:auto;
+  float:left
+ }
+ #logo img {
+  width:100%
+ }
+ #burger {
+  margin-top:26px;
+  margin-right:20px;
+  float:none;
+  width:66px;
+  height:60px
+ }
+ #burger .top {
+  height:16px;
+  width:66px
+ }
+ #burger .bottom {
+  height:16px;
+  width:66px
+ }
+ #burger .middle-right {
+  width:18px;
+  height:27px
+ }
+ #burger .middle-left {
+  width:18px;
+  height:27px
+ }
+ #burger .middle {
+  height:27px
+ }
+ #burger .middle1 {
+  height:7px
+ }
+ #burger .middle3 {
+  height:7px
+ }
+ .nav-color {
+  height:130px
+ }
+ #timeline {
+  width:70%
+ }
+ #audioplayer {
+  width:84%
+ }
+}
+@media (max-width: 400px) {
+ .h1,.content h1 {
+  font-size:35px
+ }
+ .h2,.collage-block h2,.content h2,#lead-form h3 {
+  font-size:26px;
+  letter-spacing:0px
+ }
+ .title-heading h1 {
+  font-size:50px;
+  font-weight:500
+ }
+ .inner-heading h1 {
+  font-size:39px;
+  padding:55px 20px 35px 20px;
+  width:auto;
+  font-weight:500
+ }
+ .title-heading h2 {
+  font-size:18px;
+  letter-spacing:0px
+ }
+ .title-heading .block-link {
+  width:220px;
+  margin:30px auto 0 auto;
+  border:none;
+  font-size:17px
+ }
+ .title-heading .block-link:hover {
+  border:none
+ }
+ .collage-block-50 {
+  height:230px
+ }
+ .collage-block-100b {
+  height:230px
+ }
+ #about-block {
+  height:230px
+ }
+ .collage-block h3 {
+  padding-top:70px
+ }
+ .collage-block .hover-link {
+  height:220px
+ }
+ #expect-block h3 {
+  padding-top:80px
+ }
+ #giving-block h3 {
+  padding-top:80px
+ }
+ #events-block h3 {
+  padding-top:70px;
+  padding-bottom:20px
+ }
+ #sermons-block h3 {
+  padding-top:70px;
+  padding-bottom:20px
+ }
+ .collage-block-100 {
+  height:450px
+ }
+ #map-block {
+  height:230px
+ }
+ #timeline {
+  width:65%
+ }
+ #audioplayer {
+  width:82%
+ }
+ #recent-search {
+  height:120px;
+  padding-top:20px
+ }
+}
+@media (max-width: 330px) {
+ .title-heading h1 {
+  font-size:46px
+ }
+ .title-heading h2 {
+  font-size:17px;
+  letter-spacing:0px
+ }
+ .sermon-block {
+  width:100%;
+  margin-right:0;
+  max-width:none
+ }
+ #audioplayer {
+  width:75%
+ }
+}
+
+/*# sourceMappingURL=style-new.css.map */
