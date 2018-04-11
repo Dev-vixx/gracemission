@@ -69,12 +69,12 @@ margin-bottom:0;
 		<ul id="nav-list">
 			<span id="nav-close"><span class="close1"></span><span class="close2"></span></span>
 			<span class="nav-spacer"></span>
-			<li id="home"><a href="http://localhost/g-mission/">Home</a></li>
+				<li id=""><a href="http://localhost/g-mission/">Home</a></li>
 			<li><a href="http://localhost/g-mission/about">About</a></li>
 			<li><a href="http://localhost/g-mission/sundays">Sundays</a></li>
 			<li><a href="http://localhost/g-mission/connect">Connect</a></li>
 			<li><a href="http://localhost/g-mission/sermons">Sermons</a></li>
-			<li id="mytrinity"><a href="http://localhost/g-mission/mytrinity">MyTrinity</a></li>
+			<li id="mytrinity"><a href="http://localhost/g-mission/about/giving">Donate</a></li>
 			<span class="nav-line"></span>
 		</ul>
 	</div>
