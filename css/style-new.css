@@ -38,8 +38,8 @@ html,body {
  height:100%
 }
 body {
- font-family:"museo-sans",Arial,Helvetica,sans-serif;
- color:#444
+ color:#444;
+ font-family: -apple-system, BlinkMacSystemFont, "museo-sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .container {
  width:auto;
@@ -69,7 +69,7 @@ body {
  text-align:inherit;
  margin:30px 0 30px 0;
  padding:0;
- font-family:"museo-sans"
+ font-family: -apple-system, BlinkMacSystemFont, "museo-sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .h3,.collage-block h3,.content h3,.sidebar h3,.sermon-series-hold h3,.footer h3 {
  color:inherit;
@@ -81,7 +81,7 @@ body {
  text-align:inherit;
  margin:30px 0 20px 0;
  padding:0;
- font-family:"museo-sans"
+ font-family: -apple-system, BlinkMacSystemFont, "museo-sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .h4,.collage-block h4,.content h4,.sidebar h4,.recent-block h4,.sermon-series-hold h4 {
  color:inherit;
@@ -93,7 +93,7 @@ body {
  text-align:inherit;
  margin:30px 0 10px 0;
  padding:0;
- font-family:"museo-sans"
+ font-family: -apple-system, BlinkMacSystemFont, "museo-sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .h5,.content h5,.sidebar h5,.sermon-series-hold h5,.sidebar .event-block h5 {
  color:inherit;
@@ -204,7 +204,6 @@ body {
  border:2px solid #03a2ac;
  background-color:#03a2ac;
  color:#fff;
- font-family:"museo-sans";
  text-transform:uppercase;
  letter-spacing:1px;
  font-weight:700;
@@ -213,7 +212,8 @@ body {
  -ms-border-radius:20px;
  border-radius:20px;
  text-align:left;
- float:left
+ float:left;
+ font-family: -apple-system, BlinkMacSystemFont, "museo-sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .block-link:hover {
  background-color:#ffc600;
@@ -285,14 +285,11 @@ body {
  font-weight:700;
  text-transform:uppercase;
  padding:10px 18px 9px 18px;
- -webkit-border-radius:15px;
- -moz-border-radius:15px;
- -ms-border-radius:15px;
- border-radius:15px
+ /*! border-radius:5px; */
 }
 .nav li a:hover {
  background-color:#ffc600;
- color:#444
+ color:#444;
 }
 .nav #home {
  display:none
@@ -311,10 +308,14 @@ body {
 #mytrinity a {
  background-color:#ffc600;
  color:#333;
- padding:9px 17px 10px 17px;
- border-radius:0 0 10px 10px;
+ padding:9px 27px 10px 17px;
+ border-radius:0 0 0px 0px;
  text-transform:none;
- font-size:13px
+ font-size:13px;
+}
+#mytrinity a:hover{
+ background-color:#333;
+ color:#ffc600;
 }
 @media (max-width: 850px) {
  #mytrinity {
@@ -1705,7 +1706,7 @@ p.sermon-description {
 .footer {
  padding:100px 0;
  width:100%;
- background-color:#444;
+ background-color:#090606;
  color:#fff
 }
 .footer .footer-address {
@@ -1996,6 +1997,12 @@ p.sermon-description {
   background-color:#ffc600;
   color:#444
  }
+  .nav li a:active {
+  background-color:#ffc600;
+  color:#444
+ }
+  
+  
  .nav #home {
   display:block
  }
@@ -2096,12 +2103,15 @@ p.sermon-description {
   width:35px;
   height:35px;
   float:right;
-  margin-top:-50px;
-  margin-bottom:-50px;
+  /*! margin-top:-50px; */
+  /*! margin-bottom:24px; */
   padding:15px;
   background-color:#ffc600;
   border-left:20px solid #333;
-  border-bottom:20px solid #333
+  border-bottom:20px solid #333;
+  position: absolute;
+  top: 0px;
+  right: 25px;
  }
  #nav-close .close1 {
   display:block;
@@ -2490,3 +2500,35 @@ p.sermon-description {
 }
 
 /*# sourceMappingURL=style-new.css.map */
+
+
+/*Forms Control*/
+.form-group {
+  margin-bottom: 15px;
+  clear: both;
+}
+.input-sm + .form-control-feedback,
+.input-group-sm + .form-control-feedback,
+.form-group-sm .form-control + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+fieldset{
+  padding:2px 0px;
+  margin-left: 20px;
+}
+#bootstrapForm{
+  border: 1px solid #eee;
+  padding: 20px 10px 60px 10px;
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-top: 5px;
+}
+.form-control{
+  width: 250px;
+  border:1px solid #fff;
+  padding: 5px;
+  border-radius:10px;
+}
+
